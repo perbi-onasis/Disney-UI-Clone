@@ -72,3 +72,11 @@ const createSlide = () => {
     }
 
 }
+
+// code to make it scroll from the first element to the last and set interval 
+for(let i = 0; i < 6; i++){
+    createSlide();
+}
+setInterval(() => {
+    createSlide();
+}, 3000);
