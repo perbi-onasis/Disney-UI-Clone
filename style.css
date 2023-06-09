@@ -209,3 +209,14 @@ body{
 }
 
 /*x* video section   *x*/
+
+/* title part for cards start */
+.title{
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+/*x* title part for cards end *x*/
