@@ -53,4 +53,29 @@ body{
     width: 40px;
     height: 15px;
 }
+
+
+.right-container{
+    display: block;
+    margin-left: auto;
+}
+
+.search-bar{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.search-bar:focus{
+    width: 400px;
+    border-color: #1f80ce;
+}
+
 /* nav  end */
