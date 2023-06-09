@@ -28,4 +28,29 @@ body{
     align-items: center;
 }
 
+.brand-logo{
+    width: 115px;
+    height: 45px;
+}
+
+.nav-links{
+    margin-top: 10px;
+    /* background-color: red; */
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items a{
+    /* background-color: rebeccapurple; */
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #fff;   
+    opacity: 9;
+}
+
+.kids-icon{
+    width: 40px;
+    height: 15px;
+}
 /* nav  end */
